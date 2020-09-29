@@ -1,4 +1,11 @@
 # Message Queues
+### A message queue is a queue of messages sent between applications. It includes a sequence of work objects that are waiting to be processed.
+
+### A message is the data transported between the sender and the receiver application; it's essentially a byte array with some headers at the top. An example of a message could be something that tells one system to start processing a task, it could contain information about a finished task or just be a plain message.
+
+### Message queues
+#### A message queue provides an asynchronous communications protocol, which is a system that puts a message onto a message queue and does not require an immediate response to continuing processing. Email is probably the best example of asynchronous communication. When an email is sent, the sender continues to process other things without needing an immediate response from the receiver. This way of handling messages decouples the producer from the consumer so that they do not need to interact with the message queue at the same time.
+
 
 - What does it mean that web sockets are bidirectional? Why is this useful?
   -  An important consequence is that you may efficiently push data from the server to the client. Underlying sockets are just kept open (or reopened when needed if they couldn't be kept open). ... In HTTP/1.0 a separate connection to the same server is made for every resource request.
@@ -14,8 +21,6 @@
   - If the client misses an event, it can cause a website to freeze and become unstable. Also, some of the other functions that were relying on the event listeners will be missed. 
 - How can we mitigate this?
   - We can have an error handler to prevent any unwanted failures. 
-
-***
 
 ### Terms
 
