@@ -1,3 +1,8 @@
+# React
+
+![image](https://image.slidesharecdn.com/reactjs-introduction-150311040508-conversion-gate01/95/react-js-introduction-10-638.jpg?cb=1426046763)
+
+
 # JSX
 ### JSX : it is a syntax extension to JavaScript , We recommend using it with React to describe what the UI should look like.
 
